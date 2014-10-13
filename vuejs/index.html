@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>Bleater</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="container">
+    <section id="bleats">
+      <h2>{{title | uppercase}} ({{ bleats.length}})</h2>
+      <ul>
+        <li class="bleat" v-repeat="bleats" v-component="bleat"></li>
+      </ul>
+      <section id="new_bleat" v-component="bform"></section>
+    </section>
+  </section>
+  <script src="vue.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

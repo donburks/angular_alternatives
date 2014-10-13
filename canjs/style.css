@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+#container {
+  width: 40%;
+  height: 30%;
+  margin: 10% auto;
+  text-align: left;
+  color: #08c;
+  border: 1px solid #08c;
+  padding: 10px;
+}
+
+#bleats ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#bleats ul li {
+  background-color: white;
+  height: 40px;
+  border-radius: 4px;
+  margin: 4px 0;
+  padding: 5px;
+  position: relative;
+}
+
+#bleats ul li span {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  color: #999;
+  cursor: pointer;
+}
+
+#bleats ul li p {
+  margin: 5px 0 0;
+}
+
+#bleats ul li small {
+  color: #666;
+}
+
+#new_bleat textarea, #new_bleat input[type="text"] {
+  border: 1px solid #08c;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+#new_bleat button {
+  background-color: #08c;
+  color: white;
+  font-weight: bolder;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
